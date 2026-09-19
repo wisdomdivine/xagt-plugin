@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "name": "Multipu",
+  "slug": "wisdomdivine-multipu",
+  "sourceRepository": "https://github.com/wisdomdivine/multipu",
+  "reviewCommit": "f23e77f39faffe89169c141a670d94853274f518",
+  "apiBaseUrl": "https://www.multipu.fun/api",
+  "healthCheckUrl": "https://www.multipu.fun/api/health",
+  "deploymentProofUrl": "https://www.multipu.fun/.well-known/xagent-verification.json"
+}
