@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-- Review commit: `c2a44bedd75a16f91da6e7a07787aec8340f40bb`
+- Review commit: `efe61edb90358463c45f901e42964aa90261723c`
 - API base URL: https://www.multipu.fun/api
 - Authentication: None required for public query endpoints.
 - Run commands from `submissions/mcp-hackathon/wisdomdivine-multipu/`.
@@ -20,7 +20,7 @@ Expected response:
   "status": "ok",
   "service": "multipu",
   "version": "1.0.0",
-  "commit": "c2a44bedd75a16f91da6e7a07787aec8340f40bb",
+  "commit": "efe61edb90358463c45f901e42964aa90261723c",
   "environment": {
     "appPhase": "mainnet",
     "network": "mainnet-beta"
@@ -50,7 +50,7 @@ Expected response:
 {
   "schemaVersion": 1,
   "slug": "wisdomdivine-multipu",
-  "commit": "c2a44bedd75a16f91da6e7a07787aec8340f40bb"
+  "commit": "efe61edb90358463c45f901e42964aa90261723c"
 }
 ```
 

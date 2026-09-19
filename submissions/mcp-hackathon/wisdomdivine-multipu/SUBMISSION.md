@@ -24,21 +24,21 @@
 ## Source and reproducibility
 
 - **Source repository:** https://github.com/wisdomdivine/multipu
-- **Review commit:** `c2a44bedd75a16f91da6e7a07787aec8340f40bb`
+- **Review commit:** `efe61edb90358463c45f901e42964aa90261723c`
 - **Source submitted in this PR:** `source/`
 - **Run tests:** `npx tsc --noEmit`
 - **Run locally:** `npm run dev`
-- **Deploy:** Vercel deployment with Next.js App Router and Supabase persistence; set `VERCEL_GIT_COMMIT_SHA=c2a44bedd75a16f91da6e7a07787aec8340f40bb` and `NEXT_PUBLIC_VERCEL_GIT_COMMIT_SHA=c2a44bedd75a16f91da6e7a07787aec8340f40bb`
+- **Deploy:** Vercel deployment with Next.js App Router and Supabase persistence; set `VERCEL_GIT_COMMIT_SHA=efe61edb90358463c45f901e42964aa90261723c` and `NEXT_PUBLIC_VERCEL_GIT_COMMIT_SHA=efe61edb90358463c45f901e42964aa90261723c`
 - **Version binding:** The deployed service exposes the exact 40-character review commit from `/api/health` and `/.well-known/xagent-verification.json`.
 
 The API exposes:
 
 ```json
-{"status":"ok","commit":"c2a44bedd75a16f91da6e7a07787aec8340f40bb"}
+{"status":"ok","commit":"efe61edb90358463c45f901e42964aa90261723c"}
 ```
 
 ```json
-{"schemaVersion":1,"slug":"wisdomdivine-multipu","commit":"c2a44bedd75a16f91da6e7a07787aec8340f40bb"}
+{"schemaVersion":1,"slug":"wisdomdivine-multipu","commit":"efe61edb90358463c45f901e42964aa90261723c"}
 ```
 
 ## Verification
