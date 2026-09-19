@@ -6,6 +6,13 @@
 - **Who it helps:** Autonomous AI agents, automated trading algorithms, DeFi developers, liquidity managers, and cross-chain creators seeking unified liquidity deployment and automated arbitrage across Solana, BNB, and Robinhood.
 - **Capability boundary:** Aggregates real-time token launchpad telemetry (Pump.fun, Pons, Meteora, Raydium, Uniswap), compiles high-level natural language strategies into verified execution steps, and routes execution through KeeperHub and DEX liquidity pools. It does not custody user private keys without explicit client authorization, execute unapproved fund transfers, or bypass simulated slippage and MEV protection safeguards.
 
+## Technical Description
+
+- **Multi-Chain Launchpad Aggregation:** Multipu ingests and normalizes real-time telemetry from top token launchpads including Pump.fun, Pons, and Meteora on Solana, PancakeSwap on BNB Smart Chain, and Robinhood Web3 integrations. It tracks bonding curve progression, market depth, holder distribution, and liquidity lock metrics across chains.
+- **Multipu AI Copilot and OLAXbt Telemetry:** High-level natural language trading directives and strategy prompts are parsed by Groq-accelerated models (Llama 3.3 70B Versatile) synthesized with live OLAXbt market sentiment, momentum signals, and volume divergence feeds to generate verified execution steps.
+- **MEV-Protected Routing via KeeperHub:** Automated swaps and trades route through KeeperHub private mempools and on-chain DEX pools (Raydium, PancakeSwap, Uniswap). Pre-flight dry-run simulations enforce strict user-defined slippage tolerances, minimum return thresholds, and gas bounds before broadcasting transactions.
+- **Agent and Developer APIs:** RESTful API endpoints allow AI agents and developers to explore live launches (`/api/launches/explore`), monitor trending volume (`/api/launches/trending`), search tokens (`/api/tokens/search`), and provision API keys (`/api/keys/generate`).
+
 ## Live API
 
 - **API base URL:** https://www.multipu.fun/api
